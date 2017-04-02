@@ -1,0 +1,12 @@
+Q1. What type of lambda expression?
+A functional interface (An interface with only ONE abstract method). 
+
+Examples: Runnable, Comparator, FileFilter are the functional interfaces
+
+Q2 Can a lambda be put in a variable?
+Yes, we can. This way, we can pass it as method parameter, return from a method.
+
+Q3. Is a lambda expression an object?
+It is a not an object but is type of an java 8 object which has its own identity. Lambda should not be used as
+a regular object. Should be seen as a piece of code which can be moved around and execute. where as anonymous class impl.
+uses 'new' and creating a new object. So JVM really rocks in case of Lambda expressions.
