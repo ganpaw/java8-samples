@@ -1,5 +1,12 @@
 package org.dc.java8.samples.lambda.my.syntax2.methodreference;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import static java.util.stream.Collectors.*;
+
 /**
  * Here we used :: (method reference) instead of -> (lambda exp.)
  * An example of my own 'MyFunctionalInterface' which i can utilize as Lambda expression and pass it to a class 'MyClass'

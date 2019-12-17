@@ -6,4 +6,9 @@ public class MyClass {
 		
 		myFunctionalInterface.doIt("Hello", "My Lambda Function");
 	}
+	
+	   public void execute(MyFunctionalInterface1 myFunctionalInterface){
+	        
+	        myFunctionalInterface.doIt("Single Parameter");
+	    }
 }

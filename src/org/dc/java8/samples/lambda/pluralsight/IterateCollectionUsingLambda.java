@@ -22,7 +22,7 @@ public class IterateCollectionUsingLambda {
     // or
     System.out.println("-----------------------------");
 
-    list.forEach(System.out::println);
+    list.forEach(System.out::println); // method references (using instance method println)
 
 
     // Map example
@@ -36,13 +36,13 @@ public class IterateCollectionUsingLambda {
     items.put("F", 60);
 
     items.forEach((k, v) -> System.out.println("Item : " + k + " Count : " + v));
-
-
+    
+    
     items.forEach((k, v) -> {
       System.out.println("Item : " + k + " Count : " + v);
       if ("E".equals(k)) {
         System.out.println("Hello E");
       }
     });
-  }
+   }
 }

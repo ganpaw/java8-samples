@@ -16,6 +16,12 @@ public class MyLambdaSample {
 
     MyClass obj = new MyClass();
     obj.execute(functionalInterface);
+
+
+    MyFunctionalInterface1 funcIn = System.out::println;
+    
+    obj.execute(funcIn);
+    obj.execute(System.out::println);
   }
 
 }
